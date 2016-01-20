@@ -16,6 +16,7 @@ repositories {
 
 dependencies {
     compile 'org.apache.spark:spark-core_2.11:1.6.0'
+	compile 'org.apache.spark:spark-streaming_2.11:1.6.0'
 }
 
 test {
