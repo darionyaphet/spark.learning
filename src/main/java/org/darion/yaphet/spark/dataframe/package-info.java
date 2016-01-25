@@ -5,4 +5,4 @@
  * @author darion.johannes.yaphet
  *
  */
-package org.darion.yaphet.spark;
+package org.darion.yaphet.spark.dataframe;

@@ -5,6 +5,11 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function;
 
+/**
+ * 
+ * @author darion.johannes.yaphet
+ *
+ */
 public class SimpleApp {
 
 	public static void main(String[] args) {
@@ -30,6 +35,7 @@ public class SimpleApp {
 		}).count();
 
 		System.out.println(String.format("Lines with a: %s, Lines with b: %s", numAs, numBs));
+		context.close();
 	}
 
 }
