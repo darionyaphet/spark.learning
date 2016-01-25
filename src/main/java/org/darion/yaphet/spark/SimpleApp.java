@@ -30,6 +30,7 @@ public class SimpleApp {
 		}).count();
 
 		System.out.println(String.format("Lines with a: %s, Lines with b: %s", numAs, numBs));
+		context.close();
 	}
 
 }
