@@ -17,6 +17,6 @@ object Example {
     val dfsData = context.textFile("/tmp/input")
     println(dfsData.toDebugString)
 
-    
+
   }
 }
