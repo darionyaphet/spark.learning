@@ -11,6 +11,6 @@ object LogAnalysys {
     val target = "/tmp/darion/spark/2016-04-03"
     val log = context.textFile(source)
     val timestamp = log.map(line => (if (line.split(" ").length > 1) line.split(" ")(1) else "null", 1))
-    timestamp.saveAsTextFile(target)
+    timestamp.coalesce(7).saveAsTextFile(target)
   }
 }
