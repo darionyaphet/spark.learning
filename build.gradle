@@ -21,6 +21,7 @@ dependencies {
     compile 'org.apache.spark:spark-streaming_2.11:1.6.1'
     compile 'org.apache.spark:spark-graphx_2.11:1.6.1'
     compile 'org.apache.spark:spark-mllib_2.11:1.6.1'
+    compile 'org.apache.spark:spark-bagel_2.11:1.6.1'
     compile 'com.google.guava:guava:19.0'
     compile 'mysql:mysql-connector-java:5.1.38'
     compile 'org.apache.hbase:hbase-client:1.1.1'
