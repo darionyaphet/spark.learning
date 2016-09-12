@@ -5,6 +5,5 @@ package org.darion.yaphet.spark.scala.mllib.basicstatistics
   */
 object Example {
   def main(args: Array[String]): Unit = {
-    val  observations =
   }
 }
