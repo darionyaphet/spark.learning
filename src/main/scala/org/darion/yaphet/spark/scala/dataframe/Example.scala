@@ -15,8 +15,7 @@ object Example {
     val input = context.textFile("/user/hive/warehouse/tutor.db/ods_tutor_live_action/dt=2016-09-10")
       .map(line => line.split("\t"))
       .map(token => TutorLiveAction(token(0), token(1), token(2), token(3), token(4)))
-      .toDF()
 
-    input.select("userid").distinct().count()
+    //input.select("userid").distinct().count()
   }
 }
